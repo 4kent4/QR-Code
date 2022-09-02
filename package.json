@@ -1,10 +1,13 @@
 {
+  "homepage": "http://4kent4.github.io/QR-Code",
   "name": "react-qr-code-generator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -s build",
     "build": "vite build",
     "preview": "vite preview"
   },
